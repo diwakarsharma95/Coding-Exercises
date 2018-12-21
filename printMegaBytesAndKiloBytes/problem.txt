@@ -1,0 +1,12 @@
+Problem:
+
+Write a method called printMegaBytesAndKiloBytes that has 1 parameter of type int with the name kiloBytes.
+The method should not return anything (void) and it needs to calculate the megabytes and remaining kilobytes from the kilobytes
+parameter.
+Then it needs to print a message in the format '93XX KB = W MB and 22 KB". XX represents the original value kiIoBytes. YY represents the
+calculated megabytes. ZZ represents the calculated remaining kilobytes.
+If the parameter kiloBytes is < 0 then print instead the text "Invalid Value".
+
+Example: printMegaBytesAndKiIoBytes(2050) should print "2050 KB = 2 MB and 2 KB"
+TIP: Be careful about spaces in the printed message.
+TIP: Use the remainder operator}
